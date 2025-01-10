@@ -1,6 +1,4 @@
-#starshipt prompt 
-Invoke-Expression (&starship init powershell)
-
+(@(& 'C:/Users/user/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='' --print) -join "`n") | Invoke-Expression
 #disable autopredict 
 Set-PSReadLineOption -PredictionSource None
 
