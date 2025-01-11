@@ -1,4 +1,5 @@
 #invoke the oh-my-posh
+# follow the instructions for the install https://ohmyposh.dev/docs/installation/windows
 (@(& 'C:/Users/user/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='' --print) -join "`n") | Invoke-Expression
 
 #disable autopredict 
