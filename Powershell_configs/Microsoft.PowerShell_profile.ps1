@@ -30,7 +30,10 @@ Set-Alias grep findstr
 Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
 Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 
-
+#PsReadline autocomplete
+#Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+#Set-PSReadlineOption -PredictionSource History
+#Set-PSReadlineOption --PredictionViewStyle ListVie
 
 
 # Utilities
