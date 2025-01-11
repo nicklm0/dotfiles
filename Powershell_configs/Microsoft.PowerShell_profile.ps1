@@ -41,3 +41,10 @@ function which ($command) {
   Get-Command -Name $command -ErrorAction SilentlyContinue |
     Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
 }
+
+  # install lazygit
+#scoop bucket add extras
+#Install lazygit
+#scoop install lazygit
+
+
