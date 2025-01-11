@@ -2,6 +2,10 @@
 # follow the instructions for the install https://ohmyposh.dev/docs/installation/windows
 (@(& 'C:/Users/user/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='' --print) -join "`n") | Invoke-Expression
 
+#this chunk will change the theme locate the themes on the path bellow this comment
+oh-my-posh init pwsh --config 'C:\Users\user\AppData\Local\Programs\oh-my-posh\themes\amro.omp.json' | Invoke-Expression
+
+
 #disable autopredict 
 Set-PSReadLineOption -PredictionSource None
 
