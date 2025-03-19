@@ -14,8 +14,11 @@ Here are some tools and installation guides I use:
 ---
 
 ## Windows (PowerShell) Environment
-[Link to see the Powershell environment ps1 setup](https://github.com/nicklm0/dotfiles/blob/master/Powershell_configs/Microsoft.PowerShell_profile.ps1) 
+[Link to see the Powershell environment ps1 setup](https://github.com/nicklm0/dotfiles/blob/master/Powershell_configs/Microsoft.PowerShell_profile.ps1)
 
+[installing scoop for tools and etc](https://github.com/ScoopInstaller/Scoop#readme)
+
+[installing winget for other win11 tools and pkgs](https://github.com/microsoft/winget-cli)
 ### Essential Packages  
 
 ```powershell
