@@ -10,43 +10,75 @@ Here are some tools and installation guides I use:
 - [Installing Neovim from source](https://github.com/nicklm0/dotfiles/blob/master/nvim/install.md)  
 - [Installing GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)  
 - [Installing Lazygit because I like it )](https://github.com/jesseduffield/lazygit)
-
+- [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/)
 ---
 
-## Windows (PowerShell) Environment
-[Link to see the Powershell environment ps1 setup](https://github.com/nicklm0/dotfiles/blob/master/Powershell_configs/Microsoft.PowerShell_profile.ps1)
+## Windows `PowerShell` and `WSL` Environment
+Essential Packages to install on win
 
-[installing scoop for tools and etc](https://github.com/ScoopInstaller/Scoop#readme)
+- [Link to install Windows subsystem for linux](https://learn.microsoft.com/en-us/windows/wsl/install)
+- [Link to install the windows terminal](https://apps.microsoft.com/detail/9n0dx20hk701?hl=en-US&gl=US)
+- [Link to see the Powershell environment ps1 setup](https://github.com/nicklm0/dotfiles/blob/master/Powershell_configs/Microsoft.PowerShell_profile.ps1)
 
-[installing winget for other win11 tools and pkgs](https://github.com/microsoft/winget-cli)
-### Essential Packages  
+- [installing scoop for tools and etc](https://github.com/ScoopInstaller/Scoop#readme)
 
+- [installing winget for other win11 tools and pkgs](https://github.com/microsoft/winget-cli)
+  
+- [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/)
+  
+- [need to create this file first on the documents folder](https://github.com/nicklm0/dotfiles/blob/master/Powershell_configs/powershell.config.json)
+
+
+inside the powershell config
 ```powershell
-# Install fzf using scoop
-scoop install fzf
+#invoke the oh-my-posh
+# follow the instructions for the install https://ohmyposh.dev/docs/installation/windows
+#(@(& 'C:/Users/user/AppData/Local/Programs/oh-my-posh/bin/oh-my-posh.exe' init pwsh --config='' --print) -join "`n") | Invoke-Expression
 
-# Install PSFzf module
-Install-Module -Name PSFzf -Scope CurrentUser -Force
+#this chunk will change the theme locate the themes on the path bellow this comment
+#oh-my-posh init pwsh --config 'C:\Users\user\AppData\Local\Programs\oh-my-posh\themes\amro.omp.json' | Invoke-Expression
 
+#starship prompt 
+Invoke-Expression (&starship init powershell)
 
-# Install Terminal-Icons
-Install-Module -Name Terminal-Icons -Repository PSGallery -Force
+#disable autopredict 
+Set-PSReadLineOption -PredictionSource None
 
-# Import the module to your Microsoft.PowerShell_profile
+# Import-Module PSReadLine
+Remove-Module PSReadLine
+
+#Fzf install
+#scoop install fzf
+#Install-Module -Name PSFzf -Scope CurrentUser -Force
+Import-Module PSFzf
+Set-PsFzfOption -PSReadlineChordProvider 'Ctrl+f' -PSReadlineChordReverseHistory 'Ctrl+r'
+
+#terminal icons: Install-Module -Name Terminal-Icons -Repository PSGallary -Force
+#Import-Module Terminal-Icons
 Import-Module -Name Terminal-Icons
 
-# Install PSReadLine module
-Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+# Alias
+Set-Alias -Name vim -Value nvim
+Set-Alias ll ls
+Set-Alias g git
+Set-Alias grep findstr
+Set-Alias tig 'C:\Program Files\Git\usr\bin\tig.exe'
+Set-Alias less 'C:\Program Files\Git\usr\bin\less.exe'
 
-# Enable command history-based predictions
-Set-PSReadlineOption -PredictionSource History
-Set-PSReadlineOption -PredictionViewStyle ListView
+#PsReadline autocomplete
+#Install-Module -Name PSReadLine -AllowPrerelease -Scope CurrentUser -Force -SkipPublisherCheck
+#Set-PSReadlineOption -PredictionSource History
+#Set-PSReadlineOption --PredictionViewStyle ListVie
 
 
-# Install lazygit on Powershell 
-# Add the extras bucket for Scoop
-scoop bucket add extras
+# Utilities
+function which ($command) {
+  Get-Command -Name $command -ErrorAction SilentlyContinue |
+    Select-Object -ExpandProperty Path -ErrorAction SilentlyContinue
+}
 
-# Install Lazygit
-scoop install lazygit
+  # install lazygit
+#scoop bucket add extras
+#Install lazygit
+#scoop install lazygit
 ```
