@@ -10,7 +10,7 @@ Here are some tools and installation guides I use:
 - [Installing Neovim from source](https://github.com/nicklm0/dotfiles/blob/master/nvim/install.md)  
 - [Installing GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)  
 - [Installing Lazygit because I like it )](https://github.com/jesseduffield/lazygit)
-- [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/)
+- [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/font-downloads)
 ---
 
 ## Windows `PowerShell` and `WSL` Environment
@@ -24,7 +24,7 @@ Essential Packages to install on win
 
 - [installing winget for other win11 tools and pkgs](https://github.com/microsoft/winget-cli)
   
-- [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/)
+- [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/font-downloads)
   
 - [need to create this file first on the documents folder](https://github.com/nicklm0/dotfiles/blob/master/Powershell_configs/powershell.config.json)
 
