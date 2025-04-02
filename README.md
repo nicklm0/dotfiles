@@ -22,6 +22,8 @@ Essential Packages to install on win
 
 - [installing scoop for tools and etc](https://github.com/ScoopInstaller/Scoop#readme)
 
+- [Installing PowerShell core to use the fullpower](https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5)
+
 - [installing winget for other win11 tools and pkgs](https://github.com/microsoft/winget-cli)
   
 - [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/font-downloads)
