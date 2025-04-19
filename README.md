@@ -11,6 +11,7 @@ Here are some tools and installation guides I use:
 - [Installing GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)  
 - [Installing Lazygit because I like it )](https://github.com/jesseduffield/lazygit)
 - [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/font-downloads)
+- [Installing docker to the Linux machine](https://docs.docker.com/desktop/setup/install/linux/#kvm-virtualization-support)
 ---
 
 ## Windows `PowerShell` and `WSL` Environment
@@ -29,6 +30,7 @@ Essential Packages to install on win
 - [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/font-downloads)
   
 - [need to create this file first on the documents folder](https://github.com/nicklm0/dotfiles/blob/master/Powershell_configs/powershell.config.json)
+- [Installing Docker on win 11](https://www.docker.com/)
 
 
 inside the powershell config
