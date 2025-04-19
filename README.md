@@ -6,7 +6,7 @@ This repository contains my personal configuration files (dotfiles) for various 
 ## For Linux Environment
 ### Tools and Installation Guides  
 Here are some tools and installation guides I use:
-
+- [Link to create GPG key to login on Docker](https://docs.docker.com/desktop/setup/sign-in/#signing-in-with-docker-desktop-for-linux)
 - [Installing Neovim from source](https://github.com/nicklm0/dotfiles/blob/master/nvim/install.md)  
 - [Installing GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)  
 - [Installing Lazygit because I like it )](https://github.com/jesseduffield/lazygit)
