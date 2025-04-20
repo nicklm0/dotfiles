@@ -1,4 +1,4 @@
-# installing [neovim](https//:gitHub.com/neovim/neovim) from source 
+# installing [neovim](https://github.com/neovim/neovim) from source 
 
 step by step install 
 
