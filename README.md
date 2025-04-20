@@ -6,6 +6,7 @@ This repository contains my personal configuration files (dotfiles) for various 
 ## For Linux Environment
 ### Tools and Installation Guides  
 Here are the documentations of the tools that i use on the fly:
+
 -[Installing docker to the Linux machine](https://docs.docker.com/desktop/setup/install/linux/#kvm-virtualization-support)
 - [Link to create GPG key to login on Docker](https://docs.docker.com/desktop/setup/sign-in/#signing-in-with-docker-desktop-for-linux)
 - [Installing Neovim from source](https://github.com/nicklm0/dotfiles/blob/master/nvim/install.md)  
