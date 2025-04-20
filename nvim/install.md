@@ -1,6 +1,6 @@
-# installing [neovim](https://github.com/neovim/neovim) from source 
+# installing and build [neovim](https://github.com/neovim/neovim) from source 
 
-step by step install 
+step by step build
 
 1.install this packages 
 
