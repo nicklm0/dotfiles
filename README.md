@@ -1,20 +1,19 @@
 # Dotfiles
 This repository contains my personal configuration files (dotfiles) for various development tools and environments. These dotfiles help streamline my workflow and set up a consistent development environment.
 
----
+
 
 ## For Linux Environment
 ### Tools and Installation Guides  
 Here are the documentations of the tools that i use on the fly:
 
--[Installing docker to the Linux machine](https://docs.docker.com/desktop/setup/install/linux/#kvm-virtualization-support)
+- [Installing docker to the Linux machine](https://docs.docker.com/desktop/setup/install/linux/#kvm-virtualization-support)
 - [Link to create GPG key to login on Docker](https://docs.docker.com/desktop/setup/sign-in/#signing-in-with-docker-desktop-for-linux)
 - [Installing Neovim from source](https://github.com/nicklm0/dotfiles/blob/master/nvim/install.md)  
 - [Installing GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)  
 - [Installing Lazygit because I like it )](https://github.com/jesseduffield/lazygit)
 - [Installing nerdfonts for the terminal icons and fonts](https://www.nerdfonts.com/font-downloads)
-- 
----
+
 
 ## Windows `PowerShell` and `WSL` Environment
 Here are the documentations of the tools that i oftenly used on the win 11 env:
