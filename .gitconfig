@@ -1,0 +1,8 @@
+[user]
+	name = nicklm0
+	email = nicklemoncito98@gmail.com
+[core]
+	editor = nvim
+[maintenance]
+	repo = /home/nicklm0/gdk
+	repo = /home/nicklm0/gdk/gitlab
