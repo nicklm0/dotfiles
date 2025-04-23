@@ -11,6 +11,7 @@ Here are the documentations of the tools that i use on the fly:
 - [Generating rsa ed25519](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Set up git configs for the new instance](https://git-scm.com/book/ms/v2/Getting-Started-First-Time-Git-Setup)
 - [Installing docker to the Linux machine](https://docs.docker.com/desktop/setup/install/linux/#kvm-virtualization-support)
+- [Installing and building Docker from source](https://github.com/nicklm0/dotfiles/blob/master/docker_installer.sh)
 - [Link to create GPG key to login on Docker](https://docs.docker.com/desktop/setup/sign-in/#signing-in-with-docker-desktop-for-linux)
 - [Installing Neovim from source](https://github.com/nicklm0/dotfiles/blob/master/nvim/install.md)  
 - [Installing GitLab Development Kit (GDK)](https://gitlab.com/gitlab-org/gitlab-development-kit)  
